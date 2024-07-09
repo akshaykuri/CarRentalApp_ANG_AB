@@ -1,0 +1,54 @@
+.parent{
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.child{
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.imgDiv{
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    background-color: rgb(222, 242, 242);
+}
+
+.profile-badge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile{
+    height: 180px;
+    width: 180px;
+    margin-bottom: 5px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.upload-label{
+    cursor: pointer;
+}
+
+.upload-icon{
+    width: 70px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.login-form-button{
+    margin-top: 20px;
+    width: 100%;
+}
+
